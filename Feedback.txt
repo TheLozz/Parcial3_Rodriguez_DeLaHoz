@@ -1,0 +1,13 @@
+Feedback:
+
+1. (1.5/2.0)
+* La relación desde Composite no es una realización, sino especialización (herencia).
+* El método 'Evaluate()' parece cumplir lo mismo que 'Check()'
+* Faltan las multiplicidades.
+* En la definición del tamaño de 'children' en composite, así no se especifica. Este diseño es lo que se va a programar, por lo que suele seguir la sintaxis de un lenguaje de programación.
+2. (1.0/3.0)
+* Faltan las implemnetaciones de Selector y Sequence. En consecuencia, la implementación no coincide con el diseño UML.
+* Node.Execute() marca retorno de booleano, pero el código no retorna.
+* Ninguna clase tiene los respectivos 'children'
+
+Nota: 2.5
